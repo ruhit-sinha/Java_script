@@ -1,0 +1,46 @@
+* {
+  background-color: rgb(131, 123, 123);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+input {
+  height: 25px;
+  width: 500px;
+  outline: none;
+  border: 1px solid rgb(12, 11, 11);
+}
+
+/* input:focus {
+background-color: initial; 
+}*/
+button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid rgb(12, 11, 11);
+}
+
+#eye-open {
+  width: 25px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  border-left: 0px;
+  border-bottom: 0px;
+  background-color: initial;
+}
+
+.combine {
+  position: relative;
+}
+
+/* .combine input[type="email"] {
+  width: 500px;
+} */
