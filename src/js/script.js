@@ -44,6 +44,6 @@ document.addEventListener("keyup", (s) => {
 const arr = ["green", "red", "blue", "yellow", "purple", "cyan", "pink"];
 
 document.addEventListener("keydown", () => {
-  const randomColor = arr[Math.floor(Math.random() * arr.length)];
+  const randomColor = arr[Math.floor(Math.random() * arr.length)]; //Putting Rendom color..........
   div.style.backgroundColor = randomColor;
 });
