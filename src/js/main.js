@@ -44,5 +44,5 @@ const users2 = [
     address: "Kailashahar",
   },
 ];
-const result = users2.filter((user) => user.id === 1);
-console.log(result);
+const result = users2.filter((user) => user.id === 2);
+console.log(result.join("-"));
